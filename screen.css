@@ -1,28 +1,35 @@
-Html {
-font-size: 1.125em ;
-line-height : 1.222em;
+html {
+  font-size: 1.125em;
+  line-height: 1.222em;
 }
-Body {
-padding-top: 44px;
-padding-right: 22px;
-padding-left: 22px;
+
+body {
+  padding-top: 2.444em;
+  padding-right: 1.222em;
+  padding-left: 1.222em;
 }
-H1,
+
+h1,
 h2,
 h3,
 h4,
 p {
-padding-bottom: 1.222em;
+  padding-bottom: 1.222em;
 }
-Li {
-padding-bottom: 0.611em;
+
+li {
+  padding-bottom: 0.611em;
 }
-Ol,ul {
-padding-bottom: 0.611em;
+
+ol, ul {
+
+  padding-bottom: 0.611em;
 }
-Ol {
-list-style-type: decimal;
+
+ol {
+  list-style-type: decimal;
 }
-Ul {
-list-style-type: square;
+
+ul {
+  list-style-type: square;
 }
