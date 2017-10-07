@@ -37,11 +37,12 @@ h3,
 h4,
 p {
   padding-bottom: 1.222em;
-  color: purple;
 }
 
 h1 {
   font-size: 1.666em;
+  color: purple;
+  background-color: black;
 }
 
 h2 {
@@ -104,8 +105,8 @@ audio {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: white;
-  background-color: red;
+  color: black;
+  background-color: purple;
 }
 
 /* Modular Styles */
