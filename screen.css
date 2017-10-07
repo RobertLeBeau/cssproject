@@ -29,14 +29,17 @@ body {
   padding-top: 2.444em;
   padding-right: 1.222em;
   padding-left: 1.222em;
+  background-color: black;
 }
 
 h1,
 h2,
 h3,
 h4,
-p {
+p,
+figcaption {
   padding-bottom: 1.222em;
+  color: white;
 }
 
 h1 {
@@ -91,13 +94,13 @@ audio {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: cyan;
 }
+
 #navigation li {
   float: left;
   width: 33.3333333333%;
-  background-color: green;
 }
+
 #navigation a {
   display: block;
   width: 100%;
@@ -105,7 +108,7 @@ audio {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: white;
   background-color: purple;
 }
 
