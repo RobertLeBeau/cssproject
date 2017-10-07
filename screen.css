@@ -63,6 +63,7 @@ li {
 ol, ul {
 
   padding-bottom: 0.611em;
+  color: white;
 }
 
 ol {
@@ -114,6 +115,7 @@ audio {
   text-decoration: none;
   color: white;
   background-color: purple;
+  text-decoration: none;
 }
 
 /* Modular Styles */
