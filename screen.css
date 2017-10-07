@@ -31,6 +31,9 @@ body {
   padding-left: 1.222em;
   background-color: black;
 }
+footer {
+  color: white;
+}
 
 h1,
 h2,
@@ -43,8 +46,9 @@ figcaption {
 }
 
 h1 {
+  padding-top: 1.222em;
   font-size: 1.666em;
-  color: purple;
+  color: white;
   background-color: black;
 }
 
