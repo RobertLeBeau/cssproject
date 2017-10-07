@@ -74,9 +74,7 @@ ol {
 ul {
   list-style-type: circle;
 }
-ul li {
-  list-style-type: none;
-}
+
 li li:last-child {
   padding-bottom: 0;
 }
