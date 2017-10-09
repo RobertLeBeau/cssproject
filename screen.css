@@ -62,18 +62,13 @@ li {
 }
 
 ul {
-  list-style-type :none;
+  list-style-type: none;
 }
 
 li ul {
   padding-left: 1.222em;
   padding-top: 0.611em;
   list-style-type: circle;
-}
-
-ol, ul {
-  padding-bottom: 0.611em;
-  color: white;
 }
 
 li li:last-child {
@@ -117,7 +112,6 @@ audio {
   text-decoration: none;
   color: white;
   background-color: purple;
-  text-decoration: none;
   border-color: black;
   border-width: 1em;
 }
@@ -165,24 +159,22 @@ audio {
   body {
     padding-right: 9.302325581%;
     padding-left: 9.302325581%;
-}
+  }
 
-#primary {
-   width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
-   float: left;
- }
+  #primary {
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
+    float: left;
+  }
 
- #sports {
-   width: 47.5%;
-   float: left;
- }
+  #sports {
+    width: 47.5%;
+    float: left;
+  }
 
- #games {
-   width: 47.5%;
-   float: left;
-   padding-left: 5%;
- }
+  #games {
+    width: 47.5%;
+    float: left;
+    padding-left: 5%;
+  }
 
-#footer {
-   clear: both;
 }
