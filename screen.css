@@ -63,6 +63,7 @@ li {
 
 ul {
   list-style-type: none;
+  padding-bottom: 1.222em;
 }
 
 li ul {
@@ -175,6 +176,14 @@ audio {
     width: 47.5%;
     float: left;
     padding-left: 5%;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
   }
 
 }
