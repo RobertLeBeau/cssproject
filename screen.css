@@ -21,6 +21,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
+  font-family: Arial, sans-serif;
   font-size: 1.125em;
   line-height: 1.222em;
 }
@@ -118,6 +119,10 @@ audio {
   background-color: #430A4A;
   border-color: black;
   border-width: 1em;
+}
+
+#navigation a:hover {
+  background-color: #817A87;
 }
 
 /* Modular Styles */
