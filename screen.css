@@ -146,6 +146,12 @@ audio {
   padding-bottom: 0;
 }
 
+.flexbox #navigation ol {
+  display: flex;
+}
+.flexbox #navigation li {
+  float: none;
+}
 
 /* State Styles */
 /*
@@ -207,4 +213,44 @@ audio {
     justify-content: center;
   }
 
+  #resbody {
+      padding-right: 5%; 
+      padding-left: 5%;
+    }
+
+    #workexp {
+      width: 30%;
+      float: left;
+    }
+    #education {
+      width: 30%;
+      margin-left: 5%;
+      float: left;
+    }
+    #volunteerexp {
+      width: 30%;
+      margin-right: 5%;
+      float: right;
+    }
+    .flexbox #workexp,
+    .flexbox #education,
+    .flexbox #volunteerexp {
+      float: none;
+      margin-left: 0;
+    }
+    .flexbox #workexp {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .flexbox #education {
+      order: 1;
+    }
+    .flexbox #workexp {
+      order: 2;
+    }
+
+    .flexbox #volunteerexp {
+      order: 3;
+  }
 }
