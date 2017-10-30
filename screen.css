@@ -29,7 +29,8 @@ body {
   padding-top: 2.444em;
   padding-right: 1.222em;
   padding-left: 1.222em;
-  background-color: black;
+
+  background: linear-gradient(black, #430A4A);
 }
 footer {
   color: white;
@@ -112,7 +113,7 @@ audio {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: purple;
+  background-color: #430A4A;
   border-color: black;
   border-width: 1em;
 }
@@ -157,6 +158,9 @@ audio {
 }
 /*divide by 16 to get em units for media 53.75em*/
 @media screen and (min-width: 860px) {
+  html {
+    font-size: 1.38em;
+  }
   body {
     padding-right: 9.302325581%;
     padding-left: 9.302325581%;
