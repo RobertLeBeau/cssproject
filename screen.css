@@ -122,6 +122,12 @@ audio {
 }
 
 #navigation a:hover {
+  background-color: #772EAA;
+}
+
+#home #nav-home a,
+#resume #nav-res a,
+#interests #nav-int a {
   background-color: #817A87;
 }
 
