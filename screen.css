@@ -48,6 +48,8 @@ figcaption {
 
 h1 {
   padding-top: 1.222em;
+  padding-bottom: 0.516em;
+  line-height: 1.222em;
   font-size: 1.666em;
   color: white;
   font-weight: bold;
