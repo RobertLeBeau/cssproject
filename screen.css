@@ -57,6 +57,7 @@ h1 {
 }
 
 h2 {
+  line-height: 1.222em;
   font-size: 1.555em;
 }
 
@@ -221,48 +222,14 @@ audio {
     justify-content: center;
   }
 
-  #resbody {
-      padding-right: 5%;
-      padding-left: 5%;
-    }
+  .flexbox #education,
+  .flexbox #workexp,
+  .flexbox #volunteerexp,
+  .flexbox #res-footer {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    #workexp {
-      width: 30%;
-      float: left;
-    }
-    #education {
-      width: 30%;
-      margin-left: 5%;
-      float: left;
-    }
-    #volunteerexp {
-      width: 30%;
-      margin-right: 5%;
-      float: right;
-    }
-    .flexbox #workexp,
-    .flexbox #education,
-    .flexbox #volunteerexp,
-    .flexbox #res-footer {
-      float: none;
-      margin-left: 0;
-    }
-    .flexbox #workexp {
-      display: flex;
-      justify-content: space-between;
-    }
 
-    .flexbox #education {
-      order: 4;
-    }
-    .flexbox #workexp {
-      order: 2;
-    }
 
-    .flexbox #volunteerexp {
-      order: 3;
-    }
-    .flexboc #res-footer {
-      order: 1;
-    }
 }
