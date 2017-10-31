@@ -185,9 +185,17 @@ audio {
     padding-left: 9.302325581%;
   }
 
-  #primary {
-    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
-    float: left;
+  #primary,
+  #header {
+    width: 100%; /* 450 / 700 = 0.6428571429 */
+    float: center;
+    text-align: center;
+  }
+
+  #homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #sports {
@@ -214,7 +222,7 @@ audio {
   }
 
   #resbody {
-      padding-right: 5%; 
+      padding-right: 5%;
       padding-left: 5%;
     }
 
@@ -234,7 +242,8 @@ audio {
     }
     .flexbox #workexp,
     .flexbox #education,
-    .flexbox #volunteerexp {
+    .flexbox #volunteerexp,
+    .flexbox #res-footer {
       float: none;
       margin-left: 0;
     }
@@ -244,7 +253,7 @@ audio {
     }
 
     .flexbox #education {
-      order: 1;
+      order: 4;
     }
     .flexbox #workexp {
       order: 2;
@@ -252,5 +261,8 @@ audio {
 
     .flexbox #volunteerexp {
       order: 3;
-  }
+    }
+    .flexboc #res-footer {
+      order: 1;
+    }
 }
