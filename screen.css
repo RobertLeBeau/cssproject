@@ -145,6 +145,10 @@ audio {
   text-decoration: underline;
 }
 
+#intlist {
+  list-style-type: disc;
+}
+
 #navigation ul,
 #navigation li {
   list-style-type: none;
