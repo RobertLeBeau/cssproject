@@ -52,7 +52,6 @@ h1 {
   padding-bottom: 0.516em;
   line-height: 1.222em;
   font-size: 1.666em;
-  color: white;
   font-weight: bold;
   color: gold;
 }
@@ -61,6 +60,10 @@ h2 {
   line-height: 1.222em;
   font-size: 1.555em;
   color: gold;
+}
+
+a {
+  color: #817A87;
 }
 
 li {
@@ -77,6 +80,10 @@ li ul {
   padding-left: 1.222em;
   padding-top: 0.611em;
   list-style-type: circle;
+}
+
+.reslist li {
+  color: #817A87;
 }
 
 li li:last-child {
@@ -143,11 +150,11 @@ audio {
       spacing, color, etc. etc.
 */
 
-#reshead {
+.reshead {
   text-decoration: underline;
 }
 
-#intlist {
+.intlist {
   list-style-type: disc;
 }
 
@@ -240,10 +247,10 @@ audio {
     justify-content: space-around;
   }
 
-   #rescontent {
+  #rescontent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
+    grid-column-gap: 1.38em;
     padding-top: 1.222em;
   }
 
