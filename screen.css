@@ -141,6 +141,10 @@ audio {
       spacing, color, etc. etc.
 */
 
+#reshead {
+  text-decoration: underline;
+}
+
 #navigation ul,
 #navigation li {
   list-style-type: none;
