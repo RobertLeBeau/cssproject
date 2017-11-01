@@ -54,11 +54,13 @@ h1 {
   font-size: 1.666em;
   color: white;
   font-weight: bold;
+  color: gold;
 }
 
 h2 {
   line-height: 1.222em;
   font-size: 1.555em;
+  color: gold;
 }
 
 li {
@@ -196,7 +198,7 @@ audio {
 
   #primary,
   #header {
-    width: 100%; /* 450 / 700 = 0.6428571429 */
+    width: 100%;
     float: center;
     text-align: center;
   }
@@ -238,6 +240,11 @@ audio {
     justify-content: space-around;
   }
 
-
+   #rescontent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    padding-top: 1.222em;
+  }
 
 }
