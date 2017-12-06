@@ -5,6 +5,7 @@
 /* eslint-enable */
 
 $('html').addClass('js').removeClass('no-js');
+
 $.noConflict();
 
 (function($) {
@@ -12,6 +13,10 @@ $.noConflict();
   var i = 0;
   var images = [];
   var time = 4000;
+
+  images[0] = 'https://i.imgur.com/swYG2vN.jpg';
+  images[1] = 'https://i.imgur.com/Jv2ZWn4.jpg';
+  images[2] = 'https://imgur.com/eOpJoUP';
 
   function changeImg(){
     document.slide.src = images[i];
@@ -25,6 +30,6 @@ $.noConflict();
     setTimeout("changeImg()", time);
   }
 
-  $(document).ready(changeImg());
+  window.onload = changeimg;
 
 })(jQuery);
