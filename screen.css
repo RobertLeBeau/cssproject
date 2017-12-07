@@ -22,8 +22,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 html {
   font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  line-height: 1.222em;
+  font-size: 1.222em;
+  line-height: 1.522em;
 }
 
 body {
@@ -51,7 +51,7 @@ h1 {
   padding-top: 1.222em;
   padding-bottom: 1.222em;
   line-height: 1.222em;
-  font-size: 1.666em;
+  font-size: 1.953em;
   font-weight: bold;
   color: gold;
 }
