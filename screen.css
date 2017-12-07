@@ -254,13 +254,14 @@ audio {
     padding-top: 1.222em;
   }
 
-/*JavaScript CSS*/
+  /*JavaScript CSS*/
   .slideshow {
     margin-left: auto;
     margin-right: auto;
     position: relative;
     width: 35em;
     height: 35em;
+    padding-bottom: 1.222em;
   }
 
   .slideshow img {
