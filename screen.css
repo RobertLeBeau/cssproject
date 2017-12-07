@@ -254,4 +254,16 @@ audio {
     padding-top: 1.222em;
   }
 
+  .slideshow {
+    position: relative;
+    width: 750px;
+    height: 500px;
+  }
+
+  .slideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
 }
