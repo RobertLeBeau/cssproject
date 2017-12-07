@@ -1,4 +1,3 @@
-
 $.noConflict();
 
 // Re-introduce $ scope to self executing function
