@@ -31,7 +31,7 @@ body {
   padding-right: 1.222em;
   padding-left: 1.222em;
 
-  background: linear-gradient(black, #430A4A);
+  background: white;  // linear-gradient(black, #430A4A);
 }
 footer {
   color: white;
@@ -44,12 +44,12 @@ h4,
 p,
 figcaption {
   padding-bottom: 1.222em;
-  color: white;
+  color: black;
 }
 
 h1 {
   padding-top: 1.222em;
-  padding-bottom: 0.516em;
+  padding-bottom: 1.222em;
   line-height: 1.222em;
   font-size: 1.666em;
   font-weight: bold;
