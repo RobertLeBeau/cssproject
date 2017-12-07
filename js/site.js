@@ -10,8 +10,8 @@ $.noConflict();
     $(function(){
       $('.slideshow img:gt(0)').hide();
       setInterval(function(){
-        $('.slideshow :first-child').fadeOut(3000)
-          .next('img').fadeIn(3000)
+        $('.slideshow :first-child').hide()
+          .next('img').fadeIn(1000)
           .end().appendTo('.slideshow');},
       5500);
     });
