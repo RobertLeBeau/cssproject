@@ -11,7 +11,7 @@ $.noConflict();
         $('.slideshow :first-child').fadeOut()
           .next('img').fadeIn()
           .end().appendTo('.slideshow');},
-      4000);
+      5000);
     });
 
   });
